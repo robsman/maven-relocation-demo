@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>maven-relocation-demo</groupId>
+    <groupId>com.marklogic.playground</groupId>
     <artifactId>main</artifactId>
     <packaging>pom</packaging>
 
-    <version>1.0-SNAPSHOT</version>
+    <version>4.0.0-SNAPSHOT</version>
 
     <modules>
-        <module>library</module>
-        <module>new-library</module>
-        <module>client</module>
+        <module>java-client-api</module>
+        <module>marklogic-client-api</module>
     </modules>
 
 

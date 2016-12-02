@@ -7,15 +7,15 @@
 
     <!-- no reference to parent to make this POM self contained -->
 
-    <groupId>maven-relocation-demo</groupId>
-    <artifactId>library</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.marklogic.playground</groupId>
+    <artifactId>java-client-api</artifactId>
+    <version>4.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
         <relocation>
-            <groupId>maven-relocation-demo</groupId>
-            <artifactId>new-library</artifactId>
+            <groupId>com.marklogic.playground</groupId>
+            <artifactId>marklogic-client-api</artifactId>
             <version>4.0.0-SNAPSHOT</version>
             <message>This was renamed and re-versioned since version 4.0.0. Please adjust your dependencies.</message>
         </relocation>
